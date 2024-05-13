@@ -1,0 +1,298 @@
+@import url("https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: black;
+}
+.maindiv {
+  background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/ff5587c5-1052-47cf-974b-a97e3b4f0656/065df910-dec3-46ae-afa8-7ad2b52dce40/IN-en-20240506-popsignuptwoweeks-perspective_alpha_website_large.jpg    ");
+  height: 88vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  background-color: black;
+  opacity: 0.89;
+  font-family: "Martel Sans", sans-serif;
+}
+.upper {
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo img {
+  height: 2.5rem;
+  width: 9.25rem;
+  z-index: 10;
+}
+.maindiv .upper {
+  display: flex;
+  align-items: center;
+  max-width: 148vh;
+  margin: auto;
+  justify-content: space-between;
+}
+.mainletter {
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 2rem;
+  font-weight: 600;
+  color: white;
+  z-index: 10;
+  text-align: center;
+  margin: 25px;
+}
+.mainletter:nth-child(1) {
+  font-size: 35px;
+  font-weight: bolder;
+}
+.mainletter:nth-child(2) {
+  font-size: 20px;
+}
+.sepration {
+  height: 8px;
+  background-color: #565656;
+  margin-top: 10px;
+}
+.upper .searchbutton {
+  padding: 7px 10px;
+  font-weight: bolder;
+  background-color: red;
+  color: white;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
+.up1 {
+  background-color: transparent;
+  color: white;
+  padding: 7px 10px;
+  margin-right: 25px;
+  border: white 1px solid;
+  padding: 7px 38px;
+  border-radius: 4px;
+  font-size: 15px;
+}
+.gsbut {
+  background-color: red;
+  color: white;
+  margin: 4px 29px 6px 2px;
+  font-size: 20px;
+  font-weight: bolder;
+  padding: 10px 30px;
+  border-radius: 4px;
+  border: none;
+  font-family: "Martel Sans", sans-serif;
+}
+
+.maindiv input {
+  font-size: 20px;
+  padding: 16px 35px;
+  border-radius: 5px;
+  background-color: transparent;
+  border-style: none;
+  border: white 1px solid;
+  color: white;
+}
+.gsemail {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  gap: 10px;
+}
+.first {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  gap: 70px;
+  flex-direction: row;
+}
+.firstimg img {
+  width: 70vh;
+  padding: 10px 10px 0px 30px;
+  gap: 50px;
+  position: absolute;
+}
+.firstimg video {
+  position: relative;
+  top: 72px;
+  left: 50px;
+}
+.first h1 {
+  font-size: 50px;
+  font-weight: 900;
+  font-family: "Martel Sans", sans-serif;
+}
+.first p {
+  font-size: 24px;
+  font-weight: 400;
+  font-family: "Martel Sans", sans-serif;
+}
+.firstletter {
+  position: relative;
+  margin-top: 100px;
+}
+.sepration1 {
+  height: 8px;
+  background-color: #565656;
+  margin-top: 155px;
+  z-index: 10;
+}
+.second {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  gap: 70px;
+  flex-direction: column;
+}
+.belsecletter {
+  position: relative;
+
+  position: relative;
+  margin-top: 10px;
+  margin-left: 600px;
+  margin-top: -300px;
+}
+.second img {
+  margin-right: 500px;
+}
+.second h1 {
+  font-size: 50px;
+  font-weight: 900;
+  font-family: "Martel Sans", sans-serif;
+}
+.second p {
+  font-size: 24px;
+  font-weight: 400;
+  font-family: "Martel Sans", sans-serif;
+}
+.third {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  gap: 70px;
+  flex-direction: row;
+}
+.third img {
+  width: 70vh;
+  padding: 10px 10px 0px 30px;
+  gap: 50px;
+  position: absolute;
+  z-index: 10;
+  margin-left: -90px;
+}
+.third video {
+  position: relative;
+  top: 40px;
+  left: 45px;
+  width: 45vh;
+}
+.third h1 {
+  font-size: 50px;
+  font-weight: 900;
+  font-family: "Martel Sans", sans-serif;
+}
+.third p {
+  font-size: 24px;
+  font-weight: 400;
+  font-family: "Martel Sans", sans-serif;
+}
+.thirdletter {
+  margin-top: 100px;
+}
+.cletter {
+  position: relative;
+  margin-top: 10px;
+  margin-left: 700px;
+  margin-top: -350px;
+}
+.thirdsepration {
+  height: 8px;
+  background-color: #565656;
+  margin-top: 190px;
+  z-index: 10;
+}
+.faqs h2 {
+  font-size: 50px;
+  font-weight: 900;
+  font-family: "Martel Sans", sans-serif;
+  color: white;
+  margin-top: 100px;
+  text-align: center;
+}
+.faqs .faq {
+  background-color: aqua;
+  height: 5px;
+  padding: 12px 12px 38px;
+  max-width: 140vh;
+  margin: auto;
+  font-weight: 400;
+  font-size: 24px;
+  font-family: "Martel Sans", sans-serif;
+  display: flex;
+  justify-content: space-between;
+  background-color: #565656;
+  color: white;
+  cursor: pointer;
+}
+.faq1 {
+  background-color: aqua;
+  height: 5px;
+  padding: 12px 12px 38px;
+  max-width: 140vh;
+  margin: auto;
+  font-weight: 400;
+  font-size: 24px;
+  font-family: "Martel Sans", sans-serif;
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 187px;
+  background-color: #565656;
+  color: white;
+  cursor: pointer;
+}
+.faq1:hover {
+  background-color: #3b3a3a;
+}
+.faq:hover {
+  background-color: #3b3a3a;
+}
+.footerit {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  color: white;
+  margin: auto;
+  max-width: 140vh;
+  font-family: "Martel Sans", sans-serif;
+}
+.footeritem {
+  display: flex;
+  flex-direction: column;
+  gap: 23px;
+}
+footer span {
+  font-size: 15px;
+  font-weight: 400;
+  font-family: "Martel Sans", sans-serif;
+  color: aliceblue;
+  text-align: center;
+  max-width: 60vh;
+  margin: 200px;
+}
+.footerit a {
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+  font-weight: 400;
+}
